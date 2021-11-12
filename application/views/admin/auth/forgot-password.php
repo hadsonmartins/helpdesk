@@ -45,7 +45,7 @@
                                     <img src="<?= base_url(); ?>assets/images/admin-logo.png" alt="<?= $site_name ?>">
                                 <?php } ?>
                             </div>
-                            <h5 class="card-title text-center"><?= $this->lang->line("text_forgot_password_link"); ?></h5>
+                            <h5 class="card-title text-center"><b><?= $this->lang->line("text_forgot_password_link"); ?></b></h5>
                             <form id="forgotPasswordForm" method="POST" class="form-signin">
                                 <div class="form-group">
                                     <input class="form-control" id="inputEmail" name="email" type="email" placeholder="<?= $this->lang->line("text_enter_email"); ?>" autofocus="">

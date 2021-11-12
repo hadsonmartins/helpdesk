@@ -31,7 +31,7 @@
                 <!-- Card Starts-->
                 <div class="card card-signin mt20 mb20">
                     <div class="card-body">
-                        <h5 class="card-title text-center"><?= $this->lang->line("text_activation"); ?></h5>
+                        <h5 class="card-title text-center"><b><?= $this->lang->line("text_activation"); ?></b></h5>
                         <form id="activationForm" method="POST" class="form-signin">
                             <div class="form-group">
                                 <label for="inputActivationCode"><?= $this->lang->line("text_activation_code"); ?></label>

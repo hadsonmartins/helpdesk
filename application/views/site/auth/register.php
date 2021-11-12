@@ -31,7 +31,7 @@
                 <!-- Card Starts-->
                 <div class="card card-signin mt20 mb20">
                     <div class="card-body">
-                        <h5 class="card-title text-center">Crie sua conta</h5>
+                        <h5 class="card-title text-center"><b>Crie sua conta</b></h5>
                         <form id="registerForm" method="POST" class="form-signin">
                             <div class="form-group">
                                 <label for="inputFullname"><?= $this->lang->line("text_full_name"); ?></label>
@@ -49,7 +49,7 @@
                                 <label for="inputConfirmPassword">Confirmar a senha</label>
                                 <input class="form-control" id="inputConfirmPassword" type="password" placeholder="Confirme Sua Senha" name="confirm_password" maxlength="20">
                             </div>
-                            <button id="registerButton" class="btn btn-lg btn-oval btn-theme-primary btn-block text-uppercase ladda-button" data-style="zoom-in" data-size="l" type="submit"><span class="ladda-label">Register</span></button>
+                            <button id="registerButton" class="btn btn-lg btn-oval btn-theme-primary btn-block text-uppercase ladda-button" data-style="zoom-in" data-size="l" type="submit"><span class="ladda-label">Registro</span></button>
                         </form>
                     </div>
                     <div class="card-footer p15 text-center">

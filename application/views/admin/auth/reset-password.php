@@ -46,7 +46,7 @@
                                     <img src="<?= base_url(); ?>assets/images/admin-logo.png" alt="<?= $site_name ?>">
                                 <?php } ?>
                             </div>
-                            <h5 class="card-title text-center"><?= $this->lang->line("text_reset_password_title"); ?></h5>
+                            <h5 class="card-title text-center"><b><?= $this->lang->line("text_reset_password_title"); ?></b></h5>
                             <form id="resetPasswordForm" method="POST" class="form-signin">
                                 <div class="form-group">
                                     <input class="form-control" id="inputPassword" type="password" placeholder="<?= $this->lang->line("text_enter_new_password"); ?>" name="password" maxlength="20">
